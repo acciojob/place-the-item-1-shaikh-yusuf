@@ -1,9 +1,9 @@
 
 /* Your CSS Code here. */
 .holder{
-    width: 100%;
-    height: 40vh;
-    border: 2px solid black;
+    width: 100vw;
+    /* height: 40vh; */
+    /* border: 2px solid black; */
     display: flex;
     flex-wrap: wrap;
     
@@ -11,7 +11,7 @@
 }
 .a,.b,.c{
     height: 40vh;
-    width: 20%;
+    min-width:  200px;
     border: 20px;
    
    
